@@ -1,9 +1,15 @@
 Explica con tus propias palabras los siguientes conceptos.
 
 - Que es un hashTable?
+es una estructura de datos que utiliza una función hash para identificar datos mediante una llave o clave 
+(ej. Nombre de una persona). La función hash transforma una clave a un valor índice de un arreglo de elementos.
 
-- Que hace un get 
+- Que hace un get: es un metodo que sirve para MOSTRAR el valor de un atributo. 
 
-- Que hace un set
+- Que hace un set: es un metodo que sirve para DARLE o MODIFICAR el valor de un atributo. 
 
 - Para que sirve un hashTable?
+La operación principal que se realiza de manera eficiente es la búsqueda: permite el acceso a los elementos 
+(teléfono y dirección, por ejemplo) almacenados a partir de una clave generada (usando el nombre o número de cuenta, por ejemplo). 
+Funciona transformando la clave con una función hash en un hash, un número que identifica la posición (casilla) 
+donde la tabla hash localiza el valor deseado.
